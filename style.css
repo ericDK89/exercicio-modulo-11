@@ -105,7 +105,7 @@ footer span {
   font-size: 0.75rem;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
   nav ul {
     display: flex;
     gap: 1rem;
@@ -145,5 +145,46 @@ footer span {
   }
 }
 
-@media screen and (min-width: 1366px) {
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1366px;
+    width: 100%;
+
+    margin: 0 auto;
+  }
+
+  nav ul {
+    display: flex;
+    gap: 1rem;
+
+    font-size: 1.125rem;
+  }
+
+  #about-store {
+    display: flex;
+    gap: 3rem;
+  }
+
+  #about-store img {
+    width: 25rem;
+  }
+
+  .products-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 1.5rem;
+  }
+
+  .products-container article {
+    justify-content: space-between;
+    height: 32rem;
+  }
+
+  .products-container span {
+    font-size: 1.125rem;
+  }
+
+  footer {
+    margin-top: 5rem;
+  }
 }
