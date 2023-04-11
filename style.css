@@ -55,3 +55,36 @@ h2 {
   font-size: 1.125rem;
   text-align: justify;
 }
+
+section {
+  margin-bottom: 5rem;
+}
+
+#products-section img {
+  width: 100%;
+}
+
+#products-section article {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  margin-bottom: 3rem;
+}
+
+#products-section strong {
+  font-size: 1.5rem;
+}
+
+#products-section article button {
+  padding: 0.5rem 0.5rem;
+
+  font-size: 1.125rem;
+  font-weight: 700;
+
+  border: none;
+  border-radius: 6px;
+
+  color: white;
+  background-color: black;
+}
