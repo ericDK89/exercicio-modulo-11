@@ -56,8 +56,12 @@ h2 {
   text-align: justify;
 }
 
-section {
+#about-store {
   margin-bottom: 5rem;
+}
+
+#products-section {
+  margin-bottom: 2.5rem;
 }
 
 #products-section img {
@@ -99,4 +103,47 @@ footer {
 
 footer span {
   font-size: 0.75rem;
+}
+
+@media screen and (min-width: 768px) {
+  nav ul {
+    display: flex;
+    gap: 1rem;
+
+    font-size: 1.125rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  #about-store p {
+    font-size: 1.25rem;
+  }
+
+  .products-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1.5rem;
+  }
+
+  #products-section strong {
+    font-size: 1.5rem;
+  }
+
+  #products-section span {
+    font-size: 1.25rem;
+  }
+
+  #products-section article button {
+    font-size: 1.5rem;
+    padding: 0.75rem;
+  }
+
+  footer span {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 1366px) {
 }
