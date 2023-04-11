@@ -16,7 +16,7 @@ header {
   background-color: black;
 }
 
-.container {
+header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -28,4 +28,30 @@ nav ul {
 
 nav ul li {
   padding: 0.25rem 0;
+}
+
+main {
+  margin-top: 3rem;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#about-store img {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+#about-store h2 {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  font-style: italic;
+  border-bottom: 2px solid black;
+}
+
+#about-store p {
+  font-size: 1.125rem;
+  text-align: justify;
 }
