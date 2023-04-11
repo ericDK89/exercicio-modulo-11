@@ -88,3 +88,15 @@ section {
   color: white;
   background-color: black;
 }
+
+footer {
+  padding: 1rem;
+  text-align: center;
+
+  color: white;
+  background-color: black;
+}
+
+footer span {
+  font-size: 0.75rem;
+}
